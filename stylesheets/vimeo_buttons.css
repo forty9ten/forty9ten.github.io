@@ -1,0 +1,100 @@
+.btn {
+  margin-left: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #3298da;
+
+  display: inline-block;
+  cursor: pointer;
+  padding: 7px 10px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  background: #345;
+  border: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.vod_rent_btn, .vod_buy_btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 7px 10px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  background: #345;
+  border: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  width: 150px;
+  zoom: 1;
+
+  display: block;
+  float: right;
+  margin-bottom: 5px;
+  padding: 0;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -ms-transition: background .125s ease 0;
+  -webkit-transition: background .125s ease 0;
+  transition: background .125s ease 0s;
+}
+
+.vod_rent_btn:before, .vod_rent_btn:after, .vod_buy_btn:before, .vod_buy_btn:after, .vod_dl_btn:before, .vod_dl_btn:after {
+content: "\0020";
+display: block;
+height: 0;
+overflow: hidden;
+}
+
+.vod_rent_btn .icon, .vod_buy_btn .icon, .vod_dl_btn .icon {
+  float: left;
+  padding: 14px 10px;
+  background: #fff;
+  background: rgba(255,255,255,.3);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.vod_rent_btn .icon, .vod_buy_btn .icon {
+  width: 35px;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.vod_rent_btn .icon, .vod_buy_btn .icon {
+  width: 35px;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.sm .watch_now .vod_rent_btn .price, .sm .watch_now .vod_buy_btn .price {
+  width: 75px;
+}
+.vod_rent_btn .price, .vod_buy_btn .price, .vod_dl_btn .price {
+  float: left;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.vod_rent_btn .price, .vod_buy_btn .price {
+  padding: 10px;
+  font-size: 28px;
+}
+
+.vod_rent_btn .label, .vod_buy_btn .label, .vod_dl_btn .label {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
