@@ -201,6 +201,19 @@ header h2 {
   height: 312px;
 }
 
+.call-to-action .ribbon-outer {
+  background-color: #5C7F97;
+  padding: 4px;
+  border-bottom: 2px solid #BDB6AD;
+}
+
+.call-to-action .ribbon-inner {
+  border: 1px solid #80B1D0;
+  padding: 5px;
+  color: #C2DBEC;
+  font-weight: bold;
+}
+
 section#downloads,
 div#no-downloads {
   position: relative;
@@ -284,7 +297,7 @@ section#main_content {
 footer {
   background: transparent url(../images/footer-ramp.jpg) center -1px no-repeat;
   padding-top: 104px;
-  margin: -94px auto 40px;
+  margin: -80px auto 40px;
   max-width: 560px;
   text-align: center;
 }
